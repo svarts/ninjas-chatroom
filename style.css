@@ -1,8 +1,19 @@
+body{
+  background: radial-gradient(circle at top, #0c153c , #010104);
+}
 .container{
-  max-width: 600px;
+  max-width: 62rem;
+  height: 50rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.8px);
+  -webkit-backdrop-filter: blur(6.8px);
+  border: 1px solid rgba(255, 255, 255, 0.117);
+  z-index: 999;
 }
 .btn{
-  background: #43d9be;
+  background: #0c153c;
   color: white;
   outline: none !important;
   box-shadow: none !important;
