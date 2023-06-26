@@ -1,5 +1,8 @@
 body{
-  background: radial-gradient(circle at top, #0c153c , #010104);
+  background-color: #0c0c11;
+}
+h1, .chat-p{
+  color: #ffffff;
 }
 .container{
   max-width: 62rem;
@@ -13,11 +16,29 @@ body{
   z-index: 999;
 }
 .btn{
-  background: #0c153c;
+  background: #5d00ff;
   color: white;
   outline: none !important;
   box-shadow: none !important;
 }
-.btn:focus{
+.btn:hover{
   outline: none !important;
+  background: #0c153c;
+  color: white;
+}
+.mode {
+  float:right;
+}
+.change {
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 40%;
+  width: 20px;
+  text-align: center;
+  padding: 5px;
+  margin-left: 8px;
+}
+.light{
+  background-color: #ffffff;
+  color: #2c2c2c !important;
 }
