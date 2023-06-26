@@ -11,12 +11,11 @@ body{
 .container{
   max-width: 62rem;
   height: 50rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(128, 123, 135, 0.2);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(6.8px);
   -webkit-backdrop-filter: blur(6.8px);
-  border: 1px solid rgba(255, 255, 255, 0.117);
+  border: 1px solid rgba(130, 130, 130, 0.3);
   z-index: 999;
 }
 .btn{
@@ -41,7 +40,7 @@ body{
 }
 .btn:hover{
   outline: none !important;
-  background: rgba(205, 205, 205, 0.113);
+  background: rgba(134, 134, 134, 0.425);
   color: white;
 }
 .mode {
