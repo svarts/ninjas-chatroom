@@ -1,7 +1,11 @@
+:root{
+  --btn-aqua: #00d6e1;
+  --btn-yellow: #ffee00;
+  --btn-indigo: #5d00ff;
+  --btn-pink: #f42dff;
+}
 body{
   background-color: #0c0c11;
-}
-h1, .chat-p{
   color: #ffffff;
 }
 .container{
@@ -9,21 +13,35 @@ h1, .chat-p{
   height: 50rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(6.8px);
   -webkit-backdrop-filter: blur(6.8px);
   border: 1px solid rgba(255, 255, 255, 0.117);
   z-index: 999;
 }
 .btn{
-  background: #5d00ff;
-  color: white;
+  background: var(--btn-indigo);
+  color: #ffffff;
   outline: none !important;
   box-shadow: none !important;
 }
+.btn-aqua{
+  background: var(--btn-aqua);
+  color: #0c0c11;
+}
+.btn-indigo{
+  background: var(--btn-indigo);
+}
+.btn-yellow{
+  background: var(--btn-yellow);
+  color: #0c0c11;
+}
+.btn-pink{
+  background: var(--btn-pink);
+}
 .btn:hover{
   outline: none !important;
-  background: #0c153c;
+  background: rgba(205, 205, 205, 0.113);
   color: white;
 }
 .mode {
@@ -39,6 +57,6 @@ h1, .chat-p{
   margin-left: 8px;
 }
 .light{
-  background-color: #ffffff;
+  background-color: #ededed;
   color: #2c2c2c !important;
 }
