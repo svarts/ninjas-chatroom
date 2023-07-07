@@ -19,7 +19,7 @@ body{
   cursor: pointer;
 }
 .container:hover{
-  border: 1.5px solid rgba(130, 126, 173, 0.4);
+  border: 1.5px solid rgba(116, 116, 116, 0.4);
   box-shadow: rgba(141, 129, 255, 0.2) 0px 7px 29px 0px;
 }
 .btn{
@@ -60,6 +60,6 @@ body{
   margin-left: 8px;
 }
 .light{
-  background-color: rgb(211, 211, 211);
+  background-color: rgb(255, 255, 255);
   color: #2c2c2c !important;
 }
