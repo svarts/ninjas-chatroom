@@ -19,7 +19,7 @@ body{
   cursor: pointer;
 }
 .container:hover{
-  border: 1.5px solid rgba(116, 116, 116, 0.4);
+  border: 1.5px solid rgba(116, 116, 116, 0.5);
   box-shadow: rgba(141, 129, 255, 0.2) 0px 7px 29px 0px;
 }
 .btn{
